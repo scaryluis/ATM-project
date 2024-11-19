@@ -32,7 +32,7 @@ def atm_menu():
     while True: #Create a while loop that displays the options
         print("Welcome to the ATM!")
         print("1. Deposit Money")
-        print("2. Withdrawal Money")
+        print("2. Withdraw Money")
         print("3. Check Balance")
         print("4. Exit")
 
@@ -53,4 +53,5 @@ def atm_menu():
             print("Invalid input, please enter a Number.") #Create the except incase the user inputs
                                                            #something other than a number
 
+#Call the ATM menu to show the user the options to begin
 atm_menu()
